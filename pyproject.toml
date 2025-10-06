@@ -8,7 +8,7 @@ dependencies = [
     "webtypy>=0.1.7",
     "langchain_core",
     "langchain_openai",
-    "langflow = 1.5.1",
+    "langflow == 1.5.1",
     "langchain_community"
 ]
 
