@@ -1,13 +1,15 @@
 [project]
-name = "hello-langchain"
+name = "diagnose-workflow"
 version = "0.1.0"
-description = "Python langchain example"
+description = "Diagnose Workflow"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "webtypy>=0.1.7",
     "langchain_core",
-    "langchain_openai"
+    "langchain_openai",
+    "langflow = 1.5.1",
+    "langchain_community"
 ]
 
 [dependency-groups]
